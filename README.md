@@ -51,16 +51,15 @@ Le backend sera accessible sur **http://localhost:8080**.
 ```bash
 src/
  ├── main/
- │   ├── java/com/project/portfolio/
- │   │   ├── config/
- │   │   ├── controller/
- │   │   ├── model/
- │   │   ├── repository/
- │   │   ├── service/
- │   │   └── PortfolioApplication.java
- │   └── resources/
- │       └── application.properties  # Configuration (DB, API keys)
- └── test/                          # Tests unitaires et d’intégration
+     ├── java/com/project/portfolio/
+     │   ├── config/
+     │   ├── controller/
+     │   ├── model/
+     │   ├── repository/
+     │   ├── service/
+     │   └── PortfolioApplication.java
+     └── resources/
+         └── application.properties  # Configuration (DB, API keys)
 ```
 
 ## 🔑 Configuration
