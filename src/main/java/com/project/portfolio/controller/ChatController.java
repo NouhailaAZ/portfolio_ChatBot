@@ -105,7 +105,7 @@ public class ChatController {
 
                     } catch (Exception e) {
                         e.printStackTrace();
-                        return Mono.just(Map.of("answer", "Erreur lors de la classification de la question."));
+                        return Mono.just(Map.of("answer", "Je ne peux répondre qu’à propos du parcours de Nouhaila AZLAG."));
                     }
                 });
     }
